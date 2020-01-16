@@ -66,7 +66,7 @@ export const EditCountry = ({ open, handleOnClose, country = {}, method = POST }
         <Dialog open={open} onClose={handleOnClose} aria-labelledby="form-dialog-title">
             <DialogTitle id="form-dialog-title">New country</DialogTitle>
             <DialogContent>
-                {Object.keys(formData).map(value => (
+                {Object.keys(COUNTRY_LABELS).map(value => (
                     <TextField
                         key={value}
                         autoFocus
