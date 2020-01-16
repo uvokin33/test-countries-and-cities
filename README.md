@@ -1,13 +1,12 @@
 # test-countries-and-cities - **[Demo](http://test-countries-and-cities.herokuapp.com/)**
 
 # Instalation
-```
-git clone https://github.com/uvokin33/test-countries-and-cities.git
-npm install
-npm run client-install
-```
+`git clone https://github.com/uvokin33/test-countries-and-cities.git`\
+`npm install`\
+Create file `.env` and fill it. Example in `.env-example`\
+`npm run client-install`
 
-`npm run client-build` `npm run start-server-as-prod` and go to localhost:8000\
+`npm run client-build`, `npm run start-server-as-prod` and go to localhost:8000\
   *or*\
 `npm run start-dev` and go to localhost:3000
 
